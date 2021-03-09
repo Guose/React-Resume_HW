@@ -1,0 +1,22 @@
+.header, .education, .contact, .obj, .about {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 400px;
+  height: 150px;
+  margin-left: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+
+h1 {
+  margin-left: 60px;
+}
+
+.header, .contact, .education {
+  background-color: lightblue;
+}
+
+.obj, .about {
+  background-color: lightgreen;
+}
